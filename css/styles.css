@@ -1,6 +1,6 @@
 body {
 	background-color: #FEF0E3;
-	background: url(../img/bg.jpeg) no-repeat;
+	background: url(../img/bg.jpg) no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	color: #fff;
@@ -28,6 +28,8 @@ h2 {
 
 .about {
 	width: 100%;
+	font-size: 18px;
+	line-height: 1.5;
 }
 
 .container {
@@ -36,6 +38,19 @@ h2 {
 	text-align: center;
 }
 
-button {
-	
+.btn {
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0;
+}
+
+.btn-alt {
+	border: 1px solid  #dfe2e5;
+	padding: 10px 30px;
+	margin: 0 7.25px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
 }
