@@ -2,6 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,
+	initial-scale=1.0">
+	<meta name="X-UA-Compatible" content="IE-Edge">  
 	<title>My Second Website - Test Website Demo</title>
 
 	<style type="text/css">
@@ -14,9 +17,6 @@
 			border-collapse: collapse;
 			border: 1px solid #000;
 		}
-
-
-
 	</style>
 
 </head>
@@ -50,7 +50,7 @@
 	<div align="right">
 		<p>I should be right-aligned</p>
 		<p>I should be right-aligned</p>
-	</div>
+	</div> 	
 	<hr>
 	<div>
 		<p>I plan to make this text <span class="red">red</span></p>
@@ -290,60 +290,49 @@
 
 	<hr>
 
-
-	<fieldset>
-		<legend>Your Details</legend>
-		<label for="name">Name</label>
-		<input type="text" name="name">
-
-		<label for="email">Email</label>
-		<input type="email" name="email">
-	</fieldset>
 <form>
-	<fieldset style="margin: 50px;">
-		<legend>Your Review</legend>
-			<label for="review">How did you hear about us?</label>
-			<select name="review">
-				<option value="Google">Google</option>
-				<option value="Facebook">Facebook</option>
-				<option value="Instagram">Instagram</option>
-				<option value="Linkedin">Linkedin</option>
-			</select>
+	 <div style="width: 350px;">
+		<fieldset style="margin-top: 50px;">
+			<legend>Your Details</legend>
 
-			<legend for="select">Would you visit again?</legend>
-				<label for="select">Yes</label>
-				<input type="radio" name="select" value="Yes">
+			<label for="name">Name</label>
+			<input type="text" name="name">
+			<br>
+			<label for="email">Email</label>
+			<input type="email" name="email">
+		</fieldset>
 
-				<label for="select">No</label>
-				<input type="radio" name="select" value="No">
+		<fieldset>
+			<legend>Your Review</legend>
+				<label for="review">How did you hear about us?</label>
+				<select name="review">
+					<option value="Google">Google</option>
+					<option value="Facebook">Facebook</option>
+					<option value="Instagram">Instagram</option>
+					<option value="Linkedin">Linkedin</option>
+				</select>
+					<br>
 
-				<label for="select">Maybe</label>
-				<input type="radio" name="select" value="Maybe"><br>
-			
-			<legend for="textarea">Comments</legend>
-			<textarea name="textarea"></textarea> <br>
-			
-			<input type="checkbox" name="signup">
-			<label for="signup">Sign me up for email updates</label> <br>
 
-			<input type="submit" name="submit" value="Submit!">
 
-	</fieldset>
+				<label>Would you visit us again?</label>
+				<br>
+					<label><input type="radio" name="select" value="Yes">Yes</label>
+					<label><input type="radio" name="select" value="No">No</label>
+					<label><input type="radio" name="select" value="Maybe">Maybe</label>
+		
+				<br>
+				
+				<label>Comments</label> <br>
+				<textarea name="textarea"></textarea> <br>
+				
+				<input type="checkbox" name="signup">
+				<label for="signup">Sign me up for email updates</label> <br>
+
+				<input type="submit" name="submit" value="Submit!">
+		</fieldset>
+	</div>
 </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>
