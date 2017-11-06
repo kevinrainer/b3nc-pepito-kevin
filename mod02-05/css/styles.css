@@ -1,0 +1,62 @@
+.wrapper {
+	width: 80%;
+	margin: 0 auto; /*will center wrapper*/
+	border: 2px solid black;
+	padding: 20px;
+}
+
+/*pseudo-link unvisited*/
+
+a:link {
+	color: #008008;
+}
+
+a:visited {
+	color: #060666;
+}
+
+a:focus {
+	color: #992600;
+}
+
+a:hover {
+	background-color: grey;
+}
+
+main.wrapper:hover {
+	background-color: lightblue;
+}
+
+a:active {
+	color: #000;
+}
+
+
+p,
+#test,
+.spans,
+.box p {
+	color: #99004d;
+}
+
+a[target="_blank"] {
+	background-color: yellow;
+}
+
+
+div + p {
+	background-color: lightgreen;
+}
+
+div ~ p {
+	background-color: red;
+}
+
+div > p {
+	background-color: blue;
+}
+
+
+div div h3 {
+	background-color: orange;
+}
