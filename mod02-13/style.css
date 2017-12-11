@@ -1,0 +1,155 @@
+.colorfg {
+	color: white;
+}
+
+
+.colorbg {
+	background-color: black;
+}
+
+.name {
+	color: mediumaquamarine;
+}
+
+.rgb {
+	background-color: rgb(102, 205, 170);
+}
+
+.rgba {
+	background-color: rgba(255,0,0, 0.5);
+}
+
+.hex {
+	background-color: #eff112;
+}
+
+/*hue, saturation and lightness*/
+.hsl {
+	/*hue = 0 - 360*/
+	/*saturation = 0% - 100%*/
+	/*lightness = 0% black / 50% normal / 100% white*/
+	background-color: hsl(0, 50%, 78%);
+}
+
+.hsla {
+	background-color: hsla(30, 50%, 70%, 0.5);
+}
+
+.opacity {
+	background-color: red;
+	opacity: 0.5
+}
+
+
+/* text */
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.uppercase {
+	text-transform: uppercase;
+	letter-spacing: 0.75px;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.linethrough {
+	text-decoration: line-through;
+}
+
+.none {
+	text-decoration: none;
+}
+
+.lineheight {
+	line-height: 2;
+}
+
+.letterspacing {
+	letter-spacing: 2px;
+}
+
+.wordspacing {
+	word-spacing: 16px;
+}
+
+.alignleft {
+	text-align: left;
+}
+
+.alignright {
+	text-align: right;
+}
+
+.aligncenter {
+	text-align: center;
+}
+
+.alignjustify {
+	text-align: justify;
+}
+
+.indent {
+	text-indent: 20px;
+}
+
+.textshadow {
+	text-shadow: 10px 10px 20px black;
+}
+
+@font-face {
+	font-family: 'GeneraleMonoA';
+	src: url('../fonts/GeneraleMonoA.otf');
+}
+
+.downloadedfont {
+   font-family: 'GeneraleMonoA'; 
+}
+
+
+.serif {
+	font-family: serif;
+}
+
+.sansserif {
+	font-family: sans-serif;
+}
+
+.monospace {
+	font-family: 'Courier', monospace;
+}
+
+.cursive {
+	font-family: cursive;
+}
+
+.fantasy {
+	font-family: fantasy;
+}
+
+.pixels {
+	font-size: 16px;
+}
+
+.percent {
+	font-size: 120%;
+}
+
+.ems {
+	font-size: 1.2em;
+}

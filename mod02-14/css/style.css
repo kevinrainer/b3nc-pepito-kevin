@@ -1,0 +1,164 @@
+/* css reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: lightgrey;
+}
+
+.wrapper {
+	background-color: #fff;
+	width: 80%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+h3 {
+	margin: 10px auto;
+}
+
+.item1,
+.item2 {
+	height: 150px;
+	width: 150px;
+	background-color: yellow;
+}
+
+.item2 {
+	border-left: 10px solid blue;
+	border-right: 10px solid blue;
+}
+
+.item3 {
+	border: 1px solid black;
+	border-radius: 0 10px 0 10px;
+	padding: 10px;
+	display: inline-block;
+}
+
+.item4,
+.item5 {
+	height: 150px;
+	width: 150px;
+	background-color: pink;
+	border-radius: 50%;
+	background-color: pink;
+}
+
+.item5 > p {
+	text-align: center;
+	transform: translate(0%, 350%);
+}
+
+.item6,
+.item7,
+.item8,
+.item10 {
+	position: relative;
+	border: 1px solid #000;
+	height: 150px;
+	width: 70%;
+}
+
+.item6 > img {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	bottom: 0;
+}
+
+.item7 > img[src="img/sun.gif"] {
+	height: 50px;;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.item7 > img[src="img/coconut.jpg"] {
+	height: 80px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.item8 > img[src="img/sun.gif"] {
+	height: 50px;;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.item8 > img[src="img/coconut.jpg"] {
+	height: 80px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.item8 > h6 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.item9 > img[src*="dog"] {
+	width: 150px;
+	border-radius: 50%;
+}
+
+.item10 > img {
+	display: inline;
+	width: 150px;
+	border-radius: 50%;
+}
+
+.item10 {
+	position: relative;
+}
+
+.item10 > span {
+	line-height: 150px;
+	position: absolute;
+}
+
+
+.item11,
+.item12 {
+	border: 1px solid #000;	
+	height: auto;
+	width: 500px;
+	text-align: center;
+}
+
+img[src="img/red.jpg"] {
+	width: 80px;
+}
+
+h4 {
+	padding-top: 20px;
+	font-size: 40px;
+	margin: 20px 0;
+}
+
+.row {
+	background-color: pink;
+}
+
+
+table,
+td,
+th {
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+th {
+	color: #fff;
+	background-color: #000;
+}

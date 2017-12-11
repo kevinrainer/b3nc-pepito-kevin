@@ -1,0 +1,132 @@
+/*CSS Reset*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /* to avoid overflow (horizontal scrollbar */
+}
+
+.container {
+	background-color: #eaedf0;
+}
+
+.page {
+	width: 900px;	
+	margin: 0 auto;
+}
+
+.menu {
+	height: 100px;
+	background-color: #b2d6ff; /* blue */
+}
+
+.sidebar {
+	height: 300px;
+	width: 200px;
+	background-color: #f09a9d; /* red */	
+	float: left;
+/*	opacity: 0.5;*/
+}
+
+.content {
+/*	height: 500px;*/
+	background-color: #f5cf8e; /* yellow */
+	width: 650px;
+	float: left;
+/*	opacity: 0.5;*/
+	padding: 20px;
+}
+
+.article-image {
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.footer {
+/*	border: 1px solid red;*/
+	clear: both; /*will remove float*/
+/*	height: 200px;*/
+	background-color: #d6e9fe; light blue
+}
+
+
+.column {
+	height: 160px;
+	width: 31%;
+	background-color: #b2d6ff;
+	float: left;
+	margin: 20px 1.16%;
+	position: relative;
+}
+
+
+.avatar > img {
+	width: 70px;
+	height: 70px;
+	background-color: #d6e9fe;
+	border-radius: 10%;
+	margin: 20px;
+	float: left;
+}
+
+.username {
+	margin-top: 30px;
+}
+
+.comment {
+	margin: 10px;
+	overflow: hidden;
+}
+
+
+
+/* 
+*
+* Best Practices to clear Floats
+*
+*/
+
+.clear:after {
+	content : ""; /* empty string or invisible element */
+	clear: both;
+	display: block;
+}
+
+/*Managing text with overflow*/
+.block-with-text {
+	overflow: hidden;
+	position: relative;
+	line-height: 1.2em;
+	max-height: 3.6em;
+	text-align: justify;
+	margin-right: -1em;
+	padding-right: 30px;
+}
+
+/*For comments longer than alloted height*/
+.block-with-text:before {
+	content: "...";
+	position: absolute;
+	right: 17px;
+	bottom: 0;
+}
+
+/*For comments shorter than alloted height*/
+.block-with-text:after {
+	content: "";
+	position: absolute;
+	right: 17px;
+	width: 1em;
+	height: 1em;
+	margin-top: 0.2em;
+	background: #b2d6ff;
+}
+
+.read-more {
+	position: absolute; 
+	right: 18px;
+	bottom: 16px;
+}
