@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS</title>
+<style>
+body {
+	color: #000;
+	width: 70%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+</style>
+<body>
+
+<input type="number" id="input" onchange="clearDraw()" button="dRaw">
+<button id="btn" onclick="dRaw()">Draw</button>
+	<div id="loopDisplay">
+		
+	</div>
+
+<script>
+
+function dRaw(){
+	var num = document.getElementById('input').value;
+
+	for(var x = 1; x <= num; x++) {
+		for(i = 1; i <= num; i++) {
+			document.getElementById("loopDisplay").innerHTML += "*"
+		}
+		document.getElementById("loopDisplay").innerHTML += "<br>"
+	}
+}
+
+function clearDraw(){
+		document.getElementById("loopDisplay").innerHTML = ""
+}
+
+
+</script>
+</body>
+</html>
