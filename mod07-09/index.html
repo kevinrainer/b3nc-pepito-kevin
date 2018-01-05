@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	  <title>JQuery</title>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">  
+</head>
+<body>
+	
+
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+<p>This is a paragraph</p>
+
+<p class="para-to-hide">This is a paragraph</p>
+<p class="para-to-hide">This is a paragraph</p>
+<p class="para-to-hide">This is a paragraph</p>
+<p class="para-to-hide">This is a paragraph</p>
+<p class="para-to-hide">This is a paragraph</p>
+
+<p id="paraToHideById">This is a paragraph</p>
+<p id="paraToHideById">This is a paragraph</p>
+<p id="paraToHideById">This is a paragraph</p>
+<p id="paraToHideById">This is a paragraph</p>
+<p id="paraToHideById">This is a paragraph</p>
+
+<script>
+	
+// $('p').hide(); // targeting by element
+// $('.para-to-hide').hide(); // targeting by class
+// $('#paraToHideById').hide(); // targeting by ID
+
+// $('p').click( function() {
+// 	$(this).hide();
+// });
+
+// $('paraToHideById').hover( function() {
+// 	$(this).html("I am a changed paragraph");
+// });
+
+$('p').click( function() {
+	$(this).css("color", "red");
+});
+
+
+</script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
