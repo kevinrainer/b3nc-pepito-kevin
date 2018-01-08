@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 	padding: 0;
 	margin: 0;
@@ -139,3 +140,146 @@ main {
 
 
 
+=======
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto", Arial, sans-serif;
+}
+
+.wrapper {
+	width: 700px;
+	margin: 0 auto;
+	background-color: #282828;
+	color: #fff;
+}
+
+header {
+	background-color: #00b6f1;
+	color: #fff;
+	text-align: center;
+	line-height: 70px;
+	font-size: 10px;
+}
+
+footer {
+	background-color: #828282;
+	height: 70px;
+	color: #fff;
+	line-height: 70px;
+	text-align: center;
+}
+
+
+h1 {
+	font-family: 'Schoolbell', cursive;
+	font-size: 24px;
+}
+
+.dashboard-thumbnail {
+	display: inline-block;
+	width: 40%;
+	height: 100px;
+}
+
+.dashboard-circles {
+	height: 70px;
+	width: 70px;
+	background-color: #dd4b39;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	color: #fff;
+	float: left;
+	margin-right: 20px;
+}
+
+#postCircle {
+	background-color: #84bd00;
+	margin-left: 90px;
+}
+
+#imageCircle {
+	background-color: #00b6f1;
+	margin-left: 50px;
+}
+
+#postTitle {
+	width: 100%;
+	padding: 10px;
+	border-radius: 3px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	background-color: #ecebe8;
+}
+
+#postContent {
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	background-color: #ecebe8;
+}
+
+.btn {
+	border: none;
+	padding: 15px 30px;
+	font-size: 14px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.btn-blue {
+	background-color: #00b6f1;
+}
+
+.btn-green {
+	background-color: #84bd00;
+}
+
+#btnBrowse {
+	margin-right: 3px;
+}
+
+#btnPublish,
+#btnUpload,
+#btnBrowse {
+	float: right;
+}
+
+.hide-overflow {
+	overflow: hidden;
+}
+
+main {
+	padding: 20px;
+}
+
+
+.img-set {
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	padding: 5px;
+	border-radius: 3px;
+	margin: 5px;
+	margin-left: 12px;
+	margin-bottom: 15px;
+}
+
+.inline-blocked {
+	display: inline-block;
+}
+
+.dashboard-text {
+	margin: 0;
+	font-size: 24px;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+>>>>>>> 369e20934f4ab39c1d6cbe8bcc891199897432fc
