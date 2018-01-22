@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: #ffd1dc;
+}
+
+
+/*content*/
+.wrapper {
+	width: 80vw;
+	background-color: #fff;
+	margin: 0 auto;
+	height: 85vh;
+}
+
+
+h1 {
+	margin: 0;
+}
+
+#loginForm,
+#registerForm {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.navbar-inverse {
+	margin-bottom: 0;
+}
+
+.main-footer {
+	background-color: #add8e6;
+	padding: 15px;
+	text-align: center;
+}
