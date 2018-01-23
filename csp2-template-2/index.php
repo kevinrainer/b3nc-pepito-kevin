@@ -1,7 +1,9 @@
-<?php 
+<?php
+
+session_start();
 
 function getTitle() {
-	echo 'Welcome to Kraff Beer Philippines!';
+	echo 'Welcome to Kraff Beeer Philippines!';
 }
 
 include 'partials/head.php';
@@ -16,22 +18,19 @@ include 'partials/head.php';
 
 	<!-- wrapper -->
 	<main class="wrapper">
-		
-		<h1>Index Page</h1>
 
+		<h1>Index Page</h1>
+		
 	</main>
 
 	<!-- main footer -->
 	<?php include 'partials/main_footer.php'; ?>
 
-
-<?php 
+<?php
 
 include 'partials/foot.php';
 
 ?>
-</body>
-</html>
-	
+
 </body>
 </html>

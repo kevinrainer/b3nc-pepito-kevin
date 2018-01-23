@@ -1,6 +1,6 @@
 <?php
 
-session_start();  
+session_start();
 
 $userName = $_POST['username'];
 $passWord = $_POST['password'];
@@ -15,21 +15,21 @@ $users = json_decode($file, true);
 $isLogInSuccessful = false;
 
 foreach ($users as $user) {
-	// echo $user['username'] . ' ' . $user['password'];
+    // echo $user['username'] . ' ' . $user['password'];
 
-	if ($userName == $user['username'] && $passWord == $user['password']) {
-		// echo 'Login is Successful'; 
-		$isLogInSuccessful = true;
-		$_SESSION['current_user'] = $user['username'];
-		break;
-	}
-
+    if ($userName == $user['username'] && $passWord == $user['password']) {
+        // echo 'Login was successful.';
+        $isLogInSuccessful = true;
+        $_SESSION['current_user'] = $user['username'];
+        $_SESSION['role'] = $user['role'];
+        break;
+    }
 }
 
 if ($isLogInSuccessful) {
-	// if successful log in
-	header('location: ../home.php');
+    // if successful login
+    header('location: ../home.php');
 } else {
-	// if failed log in
-	header('location: ../login.php');
+    // if failed login
+    header('location: ../login.php');
 }

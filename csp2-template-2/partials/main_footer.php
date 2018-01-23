@@ -1,5 +1,3 @@
-<footer>
-	<div class="main-footer">
-		<p>Copyright &copy; 2018 By Kraff Beer &amp; Company, Ltd. Co.</p>
-	</div>
+<footer class="main-footer">
+	<p>Copyright &copy; 2018 by Kraff Beeer &amp; Company, Ltd. Co.</p>
 </footer>

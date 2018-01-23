@@ -1,7 +1,13 @@
-<?php 
+<?php
+
+session_start();
+
+if (!isset($_SESSION['current_user'])) {
+	header('location: login.php');
+}
 
 function getTitle() {
-	echo 'Welcome to Kraff Beer Philippines!';
+	echo 'Profile';
 }
 
 include 'partials/head.php';
@@ -16,22 +22,19 @@ include 'partials/head.php';
 
 	<!-- wrapper -->
 	<main class="wrapper">
-		
-		<h1>Profile Page</h1>
 
+		<h1>Profile Page</h1>
+		
 	</main>
 
 	<!-- main footer -->
 	<?php include 'partials/main_footer.php'; ?>
 
-
-<?php 
+<?php
 
 include 'partials/foot.php';
 
 ?>
-</body>
-</html>
-	
+
 </body>
 </html>

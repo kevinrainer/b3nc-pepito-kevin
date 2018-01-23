@@ -1,43 +1,7 @@
-<?php 
+<?php
 
 session_start();
 
 session_destroy();
 
-function getTitle() {
-	echo 'Welcome to Kraff Beer Philippines!';
-}
-
-include 'partials/head.php';
-
-?>
-
-</head>
-<body>
-
-	<!-- main header -->
-	<?php include 'partials/main_header.php'; ?>
-
-	<!-- wrapper -->
-	<main class="wrapper">
-		
-		<h1>Logout Page</h1>
-
-		<h3>User was successfully logged out.</h3>
-
-	</main>
-
-	<!-- main footer -->
-	<?php include 'partials/main_footer.php'; ?>
-
-
-<?php 
-
-include 'partials/foot.php';
-
-?>
-</body>
-</html>
-	
-</body>
-</html>
+header('location: index.php');  // reroute to index.php

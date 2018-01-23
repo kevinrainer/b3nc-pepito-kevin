@@ -1,7 +1,9 @@
-<?php 
+<?php
+
+session_start();
 
 function getTitle() {
-	echo 'Welcome to Kraff Beer Philippines!';
+	echo 'Login';
 }
 
 include 'partials/head.php';
@@ -16,33 +18,29 @@ include 'partials/head.php';
 
 	<!-- wrapper -->
 	<main class="wrapper">
-		
+
 		<h1>Login Page</h1>
 
-	<form id="loginForm" method="POST" action="assets/authenticate.php" class="form-group">
-		<label for="username">Username</label>
-		<input type="text" name="username" id="username" placeholder="Enter username" class="form-control">
+		<form id="loginForm" method="POST" action="assets/authenticate.php" class="form-group">
+			<label for="username">Username</label>
+			<input type="text" name="username" id="username" placeholder="Enter username" class="form-control">
 
-		<label for="password">Password</label>
-		<input type="password" name="password" id="password" placeholder="Enter Password" class="form-control">
+			<label for="password">Password</label>
+			<input type="password" name="password" id="password" placeholder="Enter password" class="form-control">
 
-		<input type="submit" name="submit" id="submit" value="Login" class="btn btn-primary">
-
-	</form>
-
+			<input type="submit" name="submit" id="submit" value="Login" class="btn btn-primary">
+		</form>
+		
 	</main>
 
 	<!-- main footer -->
 	<?php include 'partials/main_footer.php'; ?>
 
-
-<?php 
+<?php
 
 include 'partials/foot.php';
 
 ?>
-</body>
-</html>
-	
+
 </body>
 </html>
